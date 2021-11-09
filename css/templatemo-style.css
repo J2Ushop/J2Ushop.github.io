@@ -766,8 +766,9 @@ footer a:hover {
 
 
  .services {
-  background-color: #232323;
-  padding: 65px 0px;
+  /* background-color: #232323; */
+  background-color: #fff1d6;
+  /* padding: 65px 0px; */
  }
 
  .services .service-item {
@@ -777,9 +778,9 @@ footer a:hover {
   transition: all 0.5s;
  }
 
-  .services .service-item:hover {
+  /* .services .service-item:hover {
     background-color: #313131;
-  }
+  } */
 
  .services .service-item .icon {
   width: 50px;
@@ -795,7 +796,7 @@ footer a:hover {
 
 .services .service-item h4 {
   margin-top: 20px;
-  color: #fff;
+  color: #1c1c1c;
   font-size: 20px;
   text-transform: capitalize;
   letter-spacing: 0.5px;
@@ -803,7 +804,7 @@ footer a:hover {
 }
 
 .services .service-item p {
-  color: #bbb;
+  color: #1c1c1c;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
