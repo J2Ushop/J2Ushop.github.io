@@ -561,12 +561,12 @@ nav {
 footer {
   width: 100%;
   height: 80px;
-  background-color: #313131;
+  background-color: #fff1d6;
 }
 
 footer p {
   text-align: center;
-  color: #fff;
+  color: #000;
   font-weight: 200;
   font-size: 13px;
   text-transform: uppercase;
@@ -810,8 +810,6 @@ footer a:hover {
   line-height: 28px;
 }
 
-
-
 .more-about-us {
   background-image: url(../img/about_us.png);
   background-repeat: no-repeat;
@@ -870,6 +868,67 @@ footer a:hover {
 }
 
 .more-about-us .content .simple-btn a:hover {
+  opacity: 0.5;
+}
+
+.more-howToBuy {
+  background-image: url(../img/howToBuy.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  text-align: center;
+}
+
+.more-howToBuy .content {
+  background-color: rgba(255,255,255,0.9);
+  text-align: left;
+  padding: 150px 60px;
+  color: #000;
+}
+
+.more-howToBuy .content h2 {
+  margin-top: 0px;
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.more-howToBuy .content span {
+  font-size: 16px;
+  font-weight: 200;
+  display: inline-block;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.more-howToBuy .content p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.more-howToBuy .content .simple-btn {
+  margin-top: 30px;
+}
+
+.more-howToBuy .content .simple-btn a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  color: #000;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #000;
+  padding-bottom: 3px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.more-howToBuy .content .simple-btn a:hover {
   opacity: 0.5;
 }
 
@@ -1319,6 +1378,10 @@ footer a:hover {
   }
 
   .more-about-us .content {
+    padding: 60px 30px;
+  }
+
+  .more-howToBuy .content {
     padding: 60px 30px;
   }
 
