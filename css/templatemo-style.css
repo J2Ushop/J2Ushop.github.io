@@ -810,7 +810,7 @@ footer a:hover {
   line-height: 28px;
 }
 
-.more-about-us {
+.more-aboutUs {
   background-image: url(../img/about_us.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -820,14 +820,14 @@ footer a:hover {
   text-align: center;
 }
 
-.more-about-us .content {
+.more-aboutUs .content {
   background-color: rgba(0,0,0,0.2);
   text-align: left;
-  padding: 150px 60px;
+  padding: 100px 60px;
   color: #fff;
 }
 
-.more-about-us .content h2 {
+.more-aboutUs .content h2 {
   margin-top: 0px;
   font-size: 34px;
   font-weight: 300;
@@ -835,7 +835,7 @@ footer a:hover {
   margin-bottom: 5px;
 }
 
-.more-about-us .content span {
+.more-aboutUs .content span {
   font-size: 16px;
   font-weight: 200;
   display: inline-block;
@@ -843,18 +843,18 @@ footer a:hover {
   letter-spacing: 0.5px;
 }
 
-.more-about-us .content p {
+.more-aboutUs .content p {
   color: #fff;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
 }
 
-.more-about-us .content .simple-btn {
+.more-aboutUs .content .simple-btn {
   margin-top: 30px;
 }
 
-.more-about-us .content .simple-btn a {
+.more-aboutUs .content .simple-btn a {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
@@ -867,7 +867,68 @@ footer a:hover {
   transition: all 0.5s;
 }
 
-.more-about-us .content .simple-btn a:hover {
+.more-aboutUs .content .simple-btn a:hover {
+  opacity: 0.5;
+}
+
+.more-news {
+  background-image: url(../img/news.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  text-align: center;
+}
+
+.more-news .content {
+  background-color: rgba(255,255,255,0.9);
+  text-align: left;
+  padding: 100px 60px;
+  color: #000;
+}
+
+.more-news .content h2 {
+  margin-top: 0px;
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.more-news .content span {
+  font-size: 16px;
+  font-weight: 200;
+  display: inline-block;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.more-news .content p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.more-news .content .simple-btn {
+  margin-top: 30px;
+}
+
+.more-news .content .simple-btn a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  color: #000;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #000;
+  padding-bottom: 3px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.more-news .content .simple-btn a:hover {
   opacity: 0.5;
 }
 
@@ -884,7 +945,7 @@ footer a:hover {
 .more-howToBuy .content {
   background-color: rgba(255,255,255,0.9);
   text-align: left;
-  padding: 150px 60px;
+  padding: 100px 60px;
   color: #000;
 }
 
@@ -931,8 +992,6 @@ footer a:hover {
 .more-howToBuy .content .simple-btn a:hover {
   opacity: 0.5;
 }
-
-
 
 .pricing-tables {
   padding: 65px 0px;
@@ -1377,11 +1436,15 @@ footer a:hover {
     padding-bottom: 30px;
   }
 
-  .more-about-us .content {
+  .more-aboutUs .content {
     padding: 60px 30px;
   }
 
   .more-howToBuy .content {
+    padding: 60px 30px;
+  }
+
+  .more-news .content {
     padding: 60px 30px;
   }
 
