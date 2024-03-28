@@ -204,10 +204,9 @@ nav {
   list-style: none;
   margin-top: 80px;
   padding: 0px;
-  text-align: center;
 }
 .overlay-menu ul li {
-  padding: 2px 0px;
+  padding: 15px 0px;
 }
 
 .overlay-menu ul li a {
@@ -218,12 +217,8 @@ nav {
   transition: all 0.5s;
 }
 
-.overlay-menu ul li a small{
-  font-size: 0.6em;
-}
-
 .overlay-menu ul li a:hover {
-  color: portfolio-item;
+  color: rgba(250,250,250,0.5);
 }
 
 
@@ -236,7 +231,6 @@ nav {
   letter-spacing: 0.5px;
   text-align: center;
 }
-
 
 
 
@@ -361,20 +355,6 @@ nav {
   transform: translateY(0);
  }
 
-.full-screen-portfolio .portfolio-item h2 {
-  position: relative;
-  font-size: 12px;
-  text-transform: none;
-  color: #000;
-  display: inline-block;
-  padding-left: 20px;
-  /* line-height: 5px; */
-  /* word-wrap: break-word; */
-  /* transform: translateY(25px); */
-  /* transition: .5s ease-in-out; */
-  /* letter-spacing: 0.5px; */
- }
-
 .full-screen-portfolio .portfolio-item p {
   padding-left: 20px;
   font-weight: 300!important;
@@ -386,7 +366,6 @@ nav {
   transition: .5s ease-in-out;
   text-transform: none;
  }
-
 
  .full-screen-portfolio .portfolio-item {
  text-align: center;
@@ -786,7 +765,7 @@ footer a:hover {
 
  .services {
   /* background-color: #232323; */
-  background-color: #fff1d680;
+  background-color: #fff1d6;
   /* padding: 65px 0px; */
  }
 

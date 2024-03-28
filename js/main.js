@@ -62,6 +62,11 @@ jQuery(document).ready(function($) {
           $(".overlay-menu").toggleClass("open");
         });
 
+				$(".menu-item").click(function() {
+					$(".overlay-menu").toggleClass("open");
+					$(".menu-icon").toggleClass("active");
+				});
+
 });
 
 function openWindow() {
