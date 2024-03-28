@@ -28,7 +28,7 @@ body, html {
 
 
 .page-heading {
-  background-image: url(../img/heading_bg.png);
+  background-image: url(../img/heading_bg.png?202403290119);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -830,7 +830,7 @@ footer a:hover {
 }
 
 .more-aboutUs {
-  background-image: url(../img/aboutUs.png);
+  background-image: url(../img/aboutUs.png?202403290119);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
