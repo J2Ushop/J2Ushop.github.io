@@ -323,6 +323,7 @@ nav {
 .portfolio-item img {
   width: 100%;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .portfolio-item .thumb {
@@ -739,9 +740,9 @@ footer a:hover {
   font-weight: 200;
  }
 
-.grid-portfolio .portfolio-item:hover h1 {
+/* .grid-portfolio .portfolio-item:hover h1 {
   transform: translateY(0);
- }
+ } */
 
 .grid-portfolio .portfolio-item p {
   padding-left: 20px;
